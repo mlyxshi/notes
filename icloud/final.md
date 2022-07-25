@@ -50,13 +50,12 @@ Chrome选则Enterprise版本 [https://chromeenterprise.google/browser/download/]
 
 KMS激活
 ```
-# Windows 10 LTSC 2019/2021
-
-# Install product key
-slmgr.vbs /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+# https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys
+slmgr.vbs /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D  #Windows 10 LTSC 2019/2021
+slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX  #Windows 10 Pro
 
 # Specify KMS host 
-slmgr.vbs /skms ovh.mlyxshi.com
+slmgr.vbs /skms kr.mlyxshi.com
 
 # Prompt KMS activation attempt.
 slmgr.vbs /ato
